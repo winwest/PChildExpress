@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/weather/weather",
+    "pages/exp/exp",
+    "pages/Ex/Ex",
+    "pages/express/express",
+    "pages/index/index",
+    "pages/logs/logs"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#99CC66",
+    "navigationBarTitleText": "P小童快递查询",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

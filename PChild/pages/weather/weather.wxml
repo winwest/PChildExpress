@@ -1,0 +1,20 @@
+<view class="provincespace"></view>
+
+
+<block wx:for="{{list}}" wx:key="*this">
+   <!-- 省份 -->
+   <view id="{{item.id}}" class="provinceview" bindtap="getCity">{{item.name}}</view>
+
+  <!-- 城市 -->
+  <block wx:if="{{open}}">
+    <block wx:for="{{item.citys}}" wx:for-item="city" wx:key="*item">
+
+      <view class="cityview" bindtap="Cityelect" name="cities">{{city}}</view>
+
+    </block>
+  </block>
+
+    <!-- 省份间隔 -->
+    <view class="provincespace"></view>
+
+</block>

@@ -1,0 +1,39 @@
+<!-- 小图标 -->
+<image src="../img/物流.png" class="ic"></image>
+
+<!-- 小标题 -->
+<form bindsubmit="getExpressInfo">
+<view class="tit">
+  <text class="">查快递，找P小童</text>
+</view>
+
+<!-- 查询部分 -->
+<view class="content">
+  <!-- 输入框 -->
+  <input placeholder="请输入快递单号" name="numcode" class="express" maxlength="20" value="{{num}}"></input>
+  <!-- 查询 -->
+  <button class="search" form-type='submit'>查 询</button>
+  <!-- 二维码 -->
+  <image bindtap="getScan" class="scan" src="../img/icon.png"></image>
+</view>
+</form>
+
+<!-- 快递公司 -->
+<view class="expresslogoview">
+  <!-- 获得快递图标 -->
+  <image src="{{list[index].icon}}" class="logoimg"></image>
+  <!-- 获得快递名称 -->
+  <view class="expresslogotext">
+    <text>{{list[index].name}}</text>
+  </view>
+</view>
+
+<!-- 轨迹内容 -->
+<view class="traceview" wx:for="{{mytraces}}" wx:key="this">
+   <icon type="success" size="12"></icon>
+   <text>{{item.AcceptStation}}</text>
+   <text>{{item.AcceptTime}}</text>
+</view>
+
+<!-- 底部 -->
+<view class="foot"></view>

@@ -1,0 +1,31 @@
+page{
+  background-color: #EEE;
+}
+.provinceview{
+  width: 650rpx;
+  height: 75rpx;
+  background-color: #FFF;
+  margin: 0 auto;
+  line-height: 75rpx;
+  padding-left: 20rpx;
+  letter-spacing: 5rpx;
+}
+.provincespace{
+  width: 650rpx;
+  height: 16rpx;
+  font-size: 34rpx;
+  /* background-color: red; */
+}
+.cityview{
+  width: 650rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding-left: 20rpx;
+  border-bottom: 2rpx solid #CCC;
+  color: rgb(105, 105, 105);
+  font-size: 32rpx;
+  letter-spacing: 3rpx;
+  display: none;
+}

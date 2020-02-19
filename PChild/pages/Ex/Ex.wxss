@@ -1,0 +1,86 @@
+.ic{
+  width: 130rpx;
+  height: 130rpx;
+  margin: 50rpx auto;
+  margin-left: 42%;
+  
+}
+.tit{
+  /*background-color: rgb(173, 36, 36);*/
+  text-align: center;
+}
+.tit text{
+  font-size: 35rpx;
+  color: rgb(99, 99, 99);
+}
+
+
+.content{
+  margin-top: 20rpx;
+  background-color: #ccc;
+  position: relative;
+}
+.content input{
+  width: 450rpx;
+  height: 70rpx;
+  background-color: white;
+  border: 5rpx solid #99CC66;
+  border-radius: 20rpx;
+  margin-left: 60rpx;
+  float:left;
+  padding-left: 20rpx;
+}
+.content .search{
+  width: 200rpx;
+  height: 75rpx;
+  font-size: 35rpx;
+  line-height: 75rpx;
+  /*letter-spacing: 10rpx;*/
+  color: white;
+  font-weight: bold;
+  background-color:#99CC66;
+  border-radius: 15rpx;
+  float: left;
+  border: none;
+  margin-left: 10rpx;
+}
+.content image{
+  width: 61rpx;
+  height: 61rpx;
+  position: absolute;
+  top: 10rpx;
+  left: 455rpx;
+  z-index: 1000;
+}
+
+
+.sel{
+  width: 550rpx;
+  text-align: center;
+  
+  margin: 100rpx auto;
+}
+picker{
+  width: 550rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #99CC66;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 5rpx;
+  text-align: center;
+  margin-top: 120rpx;
+  border-radius: 15rpx;
+}
+
+.traceview{
+  width: 650rpx;
+  border-radius: 15rpx;
+  background-color: rgb(230, 230, 230);
+  font-size: 35rpx;
+  margin: 5rpx auto;
+}
+
+.foot{
+  height: 70rpx;
+}

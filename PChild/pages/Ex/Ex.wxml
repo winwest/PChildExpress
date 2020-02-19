@@ -1,0 +1,32 @@
+<image src="https://i.52112.com/icon/jpg/256/20190416/36655/1752824.jpg" class="ic"></image>
+
+<form bindsubmit="getExpressInfo">
+<view class="tit">
+  <text class="">查快递，找云创</text>
+</view>
+
+<view class="content">
+
+  <input placeholder="请输入快递单号" name="numcode" class="express" maxlength="20" value="{{num}}"></input>
+
+  <button class="search" form-type='submit'>查 询</button>
+
+  <image bindtap="getScan" class="scan" src="https://i.52112.com/icon/jpg/256/20190130/29276/1454657.jpg"></image>
+
+</view>
+
+<view class="sel">
+  <picker id="express" class="selExp" range="{{list}}" range-key='{{"name"}}' bindchange="setSelect">
+    {{list[index].name}}
+  </picker>
+</view>
+
+</form>
+
+<view class="traceview" wx:for="{{mytraces}}" wx:key="this">
+   <icon type="success" size="12"></icon>
+   <text>{{item.AcceptStation}}</text>
+   <text>{{item.AcceptTime}}</text>
+</view>
+
+<view class="foot"></view>

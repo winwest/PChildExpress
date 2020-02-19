@@ -1,0 +1,29 @@
+<!--pages/express/express.wxml-->
+<text>
+  {{title}}
+</text>
+<button bindtap="btn">按钮</button>
+
+<image src="img/相机.png"></image>
+<image src="http://img3.imgtn.bdimg.com/it/u=3176166930,1094321685&fm=26&gp=0.jpg"></image>
+
+<swiper autoplay="auto" indicator-dots="true" indicator-color="white">
+  <swiper-item>
+    <image src="http://img2.imgtn.bdimg.com/it/u=3120282836,3067141792&fm=26&gp=0.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="http://img0.imgtn.bdimg.com/it/u=3660681135,2179565665&fm=26&gp=0.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="http://img2.imgtn.bdimg.com/it/u=3946031397,3023689095&fm=26&gp=0.jpg"></image>
+  </swiper-item>
+</swiper>
+
+<audio src="" controls=""></audio>
+<video src="http://su.sycdn.kuwo.cn/10f99e73f0d5225cbf7f54c6297516fb/5d6782b0/resource/m3/97/14/3665474084.mp4"></video>
+
+<view class="v1">
+  <button>按钮</button>
+</view>
+
+<input type="text" class=""></input>
